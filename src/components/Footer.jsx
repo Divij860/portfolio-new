@@ -11,7 +11,7 @@ const Footer = () => {
     { icon: <FaLinkedin size={20} />, href: 'https://linkedin.com/in/divijp860', label: 'LinkedIn' },
     { icon: <FaEnvelope size={20} />, href: 'mailto:divijp2002@gmail.com', label: 'Email' },
     { icon: <FaWhatsapp size={20} />, href: 'https://wa.me/+916282472416', label: 'WhatsApp' },
-    { icon: <HiDocumentDownload size={20} />, href: '/src/assets/Divij Resume.pdf', label: 'Resume', download: true }
+    { icon: <HiDocumentDownload size={20} />, href: '/Divij Resume.pdf', label: 'Resume', download: true }
   ];
 
   const quickLinks = [

@@ -179,7 +179,7 @@ const Home = () => {
 
               {/* Animated Download CV Button */}
               <motion.a
-                href="/src/assets/Divij Resume.pdf"
+                href="/Divij Resume.pdf"
                 download
                 whileHover="hover"
                 initial="rest"
