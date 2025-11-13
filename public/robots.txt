@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://divij-wine.vercel.app/sitemap.xml
