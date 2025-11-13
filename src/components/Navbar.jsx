@@ -40,13 +40,13 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-2">
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold bg-gradient-to-r from-[#29AAE1] to-[#BC3FE0] bg-clip-text text-transparent"
             >
-              Divij P
+              <img className='w-14 mt-4' src="/logo.png" alt="" />
             </motion.div>
           </Link>
 

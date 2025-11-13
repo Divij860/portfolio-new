@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 import { HiDocumentDownload } from 'react-icons/hi';
 
 const Footer = () => {
@@ -10,6 +10,7 @@ const Footer = () => {
     { icon: <FaGithub size={20} />, href: 'https://github.com/Divij860', label: 'GitHub' },
     { icon: <FaLinkedin size={20} />, href: 'https://linkedin.com/in/divijp860', label: 'LinkedIn' },
     { icon: <FaEnvelope size={20} />, href: 'mailto:divijp2002@gmail.com', label: 'Email' },
+    { icon: <FaWhatsapp size={20} />, href: 'https://wa.me/+916282472416', label: 'WhatsApp' },
     { icon: <HiDocumentDownload size={20} />, href: '/src/assets/Divij Resume.pdf', label: 'Resume', download: true }
   ];
 

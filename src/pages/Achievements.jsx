@@ -96,7 +96,7 @@ const Achievements = () => {
             {
               icon: <Icons.Award size={32} />,
               title: 'Certifications',
-              value: '1+',
+              value: '3+',
               description: 'Professional certifications earned'
             },
             {

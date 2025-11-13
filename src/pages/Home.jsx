@@ -233,7 +233,7 @@ const Home = () => {
               <div className="relative bg-white/10 dark:bg-gray-800/50 backdrop-blur-xl rounded-3xl p-8 border border-white/20 dark:border-gray-700/50 shadow-2xl">
                 <div className="space-y-4">
                   {[
-                    { label: "Experience", value: "1+ Year" },
+                    { label: "Experience", value: "2+ Year" },
                     { label: "Projects", value: "15+ Completed" },
                     { label: "Technologies", value: "MERN Stack" },
                     { label: "Location", value: "Kerala, India" },

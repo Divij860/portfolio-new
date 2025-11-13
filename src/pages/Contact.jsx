@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Mail, Phone, MapPin, Github, Linkedin, CheckCircle } from 'lucide-react';
 import emailjs from '@emailjs/browser';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -53,7 +54,8 @@ const Contact = () => {
 
   const socialLinks = [
     { icon: <Github size={24} />, label: 'GitHub', href: 'https://github.com/Divij860', color: 'hover:text-gray-900 dark:hover:text-white' },
-    { icon: <Linkedin size={24} />, label: 'LinkedIn', href: 'https://linkedin.com/in/divijp860', color: 'hover:text-blue-600' }
+    { icon: <Linkedin size={24} />, label: 'LinkedIn', href: 'https://linkedin.com/in/divijp860', color: 'hover:text-blue-600' },
+    { icon: <FaWhatsapp size={24} />, label: 'WhatsApp', href: 'https://wa.me/916282472416', color: 'hover:text-green-500' }
   ];
 
   return (
