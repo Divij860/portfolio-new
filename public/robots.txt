@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://divij-wine.vercel.app/sitemap.xml
+Sitemap: https://devbydiv.vercel.app/sitemap.xml
